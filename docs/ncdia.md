@@ -1215,3 +1215,172 @@ Hook priority levels.
 | LOWEST       | 100    |
 
 ## ncdia.utils
+
+### ncdia.utils.metrics
+
+#### ncdia.utils.metrics.accuracy.py
+
+- <span class="highlight-text">**accuracy(output, target, topk=(1,))**</span>
+
+    Computes the accuracy over the k-top predictions for the specified values of k.
+
+    **Parameters:**
+
+    - **output** (*torch.Tensor*): model output, shape (batch_size, num_classes)
+    - **target** (*torch.Tensor*): target labels, shape (batch_size)
+    - **topk** (*tuple*): top-k values, default is (1,)
+
+    **Returns:**
+
+    - **acc** (*list*): accuracy values for each k in topk
+
+- <span class="highlight-text">**per_class_accuracy(output, target, topk=(1, ))**</span>
+
+    Compute per class accuracy over the k-top predictions for the specified values of k 
+
+    **Parameters:**
+
+    - **output** (*torch.Tensor*): model output, shape (batch_size, num_classes)
+    - **target** (*torch.Tensor*): target labels, shape (batch_size)
+    - **topk** (*tuple*): top-k values, default is (1,)
+
+    **Returns:**
+
+    - **acc** (*list*): accuracy values for each k in topk
+
+#### ncdia.utils.metrics.meter.py
+
+**AverageMeter**
+
+Computes and stores the average and current value.
+
+### ncdia.utils.losses
+
+#### CrossEntropyLoss
+
+In *crossentropy.py*. CrossEntropyLoss with label smoothing.
+
+#### AngularPenaltySMLoss
+
+In *angular.py*. Angular Penalty Softmax Loss. Three 'loss_types' available: ['arcface', 'sphereface', 'cosface']
+
+### ncdia.utils.cfg.py
+
+#### Configs
+
+Include implementation of setup and use of configs.
+
+### ncdia.utils.logger.py
+
+Include implementation of loggers to write output to console and external text file.
+
+### ncdia.utils.registry.py
+
+#### Registry
+
+A registry to map strings to classes or functions.
+
+**Examples:**
+
+    >>> REGISTRY = Registry()
+    >>> @REGISTRY
+    >>> def foo():
+    >>>     return 'foo'
+    >>> @REGISTRY.register
+    >>> def bar():
+    >>>     return 'bar'
+
+    >>> print(REGISTRY['foo']())
+    foo
+    >>> print(REGISTRY['bar']())
+    bar
+
+    >>> print(REGISTRY)
+    {'foo': <function foo at 0x7f9b1c0e0d30>, 'bar': <function bar at 0x7f9b1c0e0e18>}
+    >>> print(REGISTRY['foo'])
+    <function foo at 0x7f9b1c0e0d30>
+    >>> print(REGISTRY['bar'])
+    <function bar at 0x7f9b1c0e0e18>
+
+    >>> print('foo' in REGISTRY)
+    True
+    >>> print('bar' in REGISTRY)
+    True
+    >>> print('foobar' in REGISTRY)
+    False
+
+    >>> print(REGISTRY.keys())
+    dict_keys(['foo', 'bar'])
+    >>> print(REGISTRY.values())
+    dict_values([<function foo at 0x7f9b1c0e0d30>, <function bar at 0x7f9b1c0e0e18>])
+    >>> print(REGISTRY.items())
+    dict_items([('foo', <function foo at 0x7f9b1c0e0d30>), ('bar', <function bar at 0x7f9b1c0e0e18>)])
+    >>> print(len(REGISTRY))
+    2
+
+- <span class="highlight-text">**register_callable(self, target: callable)**</span>
+
+    Register a target.
+
+    **Parameters:**
+
+    - **target** (*callable*): callable target to be registered.
+
+- <span class="highlight-text">**register_dict(self, target)**</span>
+
+    Register a dict.
+
+    **Parameters:**
+
+    - **target** (*dict*): A dict to be registered. All its values should be callable.
+
+- <span class="highlight-text">**register(self, target)**</span>
+
+    Register a target.
+
+    **Parameters:**
+
+    - **target** (*callable | dict*): target to be registered.
+
+    **Returns:**
+
+    - **target** (*object*): Registered target.
+
+- <span class="highlight-text">**build(self, target: dict | Configs, \*\*kwargs)**</span>
+
+    Build a target with configs.
+
+    **Parameters:**
+
+    - **target** (*dict | Configs*): A dict to be built. It should have a key 'type' to specify the target type. It may have other keys to specify the target configs.
+    - **kwargs** (*dict*): Additional keyword arguments.
+
+    **Returns:**
+
+    - **target** (*object*): A built target.
+
+### ncdia.utils.tools.py
+
+- <span class="highlight-text">**mkdir_if_missing(dirname)**</span>
+
+    Create dirname if it is missing.
+
+    **Parameters:**
+
+    - **dirname** (*str*): directory path
+
+- <span class="highlight-text">**auto_device(device)**</span>
+
+    Automatically set the device for the input tensor.
+
+    **Parameters:**
+
+    - **device** (*str | torch.device | None*): device name or device object. If None, return torch.device('cuda') if available, otherwise return torch.device('cpu').
+
+- <span class="highlight-text">**set_random_seed(seed)**</span>
+
+    Set random seed for reproducibility.
+
+    **Parameters:**
+
+    - **seed** (*int*): random seed
