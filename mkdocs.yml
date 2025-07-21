@@ -17,3 +17,7 @@ extra_css:
   - stylesheets/custom.css
 markdown_extensions:
   - attr_list  # 允许为元素添加属性
+  - footnotes
+
+copyright: 'Copyright &copy; 2025 <a href="https://github.com/HAIV-Lab" target="_blank">HAIV Lab</a>. Licensed under the <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a>.'
+
