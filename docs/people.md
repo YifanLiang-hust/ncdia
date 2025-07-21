@@ -1,12 +1,12 @@
 
-# OpemHAIV Authors
+## 🧑‍🤝‍🧑 OpemHAIV Authors
 
-## Corresponding Author
+### ⭐ Corresponding Author
 - **Xiang Xiang**
 
 ![Xiang Xiang](images/corresponding-author.png){ width="120" }
 
-[Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=-D5k5ioAAAAJ) | [Homepage](https://eglxiang.github.io/) | Email: xex@hust.edu.cn
+[Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=-D5k5ioAAAAJ) | [Homepage](https://eglxiang.github.io/) | ✉️ Email: xex@hust.edu.cn
 
 
 Xiang Xiang is currently an **associate professor** of Intelligence Science and Technology at ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*, where he founds and directs the <span style="color:#d32f2f">**HUST AIA Image and Vision Learning Lab (HAIV Lab)**</span> since *2021*, working on **computer vision** and **open-world learning**. 
@@ -22,7 +22,7 @@ Before that, he received the B.S. degree from ![WHU](icons/whu.png){width="18" s
 
 ---
 
-## Other Authors
+###  🤗 Other Authors
 - **Zhou Qinhao**
 
 Zhou Qinhao received his B.S. degree from ![NWPU](icons/nwpu.jpg){width="18" style="vertical-align:middle;"}  **Northwestern Polytechnical University**, *Xi'an, China*, in 2022, and his M.S. degree from the School of Artificial Intelligence and Automation, ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*, in 2025. He is currently working at ![ByteDance](icons/bytedance-color.svg){width="18" style="vertical-align:middle;"}**ByteDance** , *Beijing, China*.
@@ -47,7 +47,7 @@ Liang Yifan has received the B.S. degree from ![HUST](icons/hust.png){width="18"
 
 Li Hanlin has received the B.S. degree from ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*, in 2025. He is currently pursuing a M.S. degree at the School of Artificial Intelligence and Automation, ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*.
 
-## Special Thanks
+### 🙏 Special Thanks
 
 We would like to express our special gratitude to the following contributors who have graduated but made significant contributions to this project:
 
