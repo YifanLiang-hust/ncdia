@@ -12,6 +12,9 @@ nav:
     - scripts: scripts.md
   - More Information:
     - People: people.md
+    - Contributing: contributing.md
+    - Citation: citation.md
+    - Acknowledgment: acknowledgment.md
 theme: readthedocs
 extra_css:
   - stylesheets/custom.css

@@ -1,5 +1,6 @@
 
-## Open World Learning
+## 📊 Results
+### 🌍 Open World Learning
 **Table 1.  The experiments of OWL on OpenEarthSensing dataset. ID Acc and ODD Acc are the in-distribution and out-of-distribution performance, respectively, and Avg denotes the average performance of each session.**
 
 | OOD Method   | CIL Method   | ID Acc | OOD Acc | Session 1 | Session 2 | Avg   |  
@@ -14,13 +15,13 @@
 |              | EWC     | 93.5   | 59.99   | 91.27     | 31.33     | 61.30 |  
 |              | iCaRL   | 93.5   | 59.99   | 91.27     | 33.78     | 62.52 |  
 
-## Incremental Learning
+### 🌱 Incremental Learning
 
 **Fig 1. Experimental results of CIL. The left figure presents results in randomized order, while the right figure displays systematically organized results arranged from coarse to fine granularity.**
 
 ![CIL](images/in-exp.png)
 
-## Few-Shot Class-Incremental Learning
+### 🧩 Few-Shot Class-Incremental Learning
 
 **Table 2. The experimental results of few-shot class-incremental learning on the OpenEarthSensing dataset. Shots denote the training samples for each category.**
 
@@ -31,8 +32,8 @@
 | FACT  | 46.42  | 49.21    | 46.38  | 49.15    | 46.36  | 49.15    | 46.37  | 49.15    |  
 | SAVC  | 71.71  | 79.55    | 72.23  | 80.07    | 66.61  | 75.17    | 59.63  | 76.77    |  
 
-## OOD-Detection
-### CNN-based Methods
+### 🚨 Out-of-Distribution Detection
+#### CNN-based Methods
 
 **Table 3. OOD detection performance on OES benchmark. 'Near' represents the average AUROC for Near-OOD datasets, 'Far' indicates the average AUROC for Far-OOD datasets.**
 
@@ -49,7 +50,7 @@
 | LogiNorm | 89.00   | 95.15    | 68.80   | 80.29    | 53.25   | 56.72    | 77.69   | 55.43    | 64.12   | 63.97    |  
 | DML    | 84.38   | 90.36    | 65.78   | 76.16    | 52.89   | 58.60    | 62.56   | 50.68    | 60.39   | 50.56    |  
 
-### CLIP-based Methods
+#### CLIP-based Methods
 
 **Table 4. CLIP based methods' performance on OES benchmark. 'Near' represents the average AUROC for Near-OOD datasets, 'Far' indicates the average AUROC for Far-OOD datasets.**
 
