@@ -1,6 +1,8 @@
 # Introduction
 
-The OpenHAIV framework primarily focuses on deep learning-based computer vision tasks and currently supports the following:
+The OpenHAIV framework primarily focuses on Open World Learing tasks and currently supports the following:
+
+![owl](intro.png)
 
 ## Supervised Learning
 Supervised learning is one of the most commonly used machine learning algorithms. In the field of computer vision, tasks such as image classification typically rely on labeled data for training. Labeled data refers to paired input data and corresponding target outputs (labels). Through these pairs, the model learns the mapping from input to output. During training, the model continuously adjusts its internal parameters to minimize the gap between predictions and actual labels. A fundamental training framework should support supervised learning, and Openhaiv allows the use of different deep learning models, datasets, and flexible hyperparameter tuning.
