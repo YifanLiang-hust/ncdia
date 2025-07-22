@@ -1,0 +1,25 @@
+site_name: OpenHAIV
+nav:
+  - Get Started: 
+    - Introduction: index.md
+    - Quik Start: quik.md
+    - Reproduced Methods: methods.md
+    - Results: results.md
+  - Documentation:
+    - Overview: overview.md
+    - config: config.md
+    - ncdia: ncdia.md
+    - scripts: scripts.md
+  - More Information:
+    - People: people.md
+    - Contributing: contributing.md
+    - Citation: citation.md
+    - Acknowledgment: acknowledgment.md
+theme: readthedocs
+extra_css:
+  - stylesheets/custom.css
+markdown_extensions:
+  - attr_list  # 允许为元素添加属性
+
+copyright: 'Copyright &copy; 2025 <a href="https://github.com/HAIV-Lab" target="_blank">HAIV Lab</a>. Licensed under the <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a>.'
+
