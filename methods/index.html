@@ -48,17 +48,13 @@
                   </li>
                   <li class="toctree-l1 current"><a class="reference internal current" href="#">Reproduced Methods</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#class-incremental-learning">Class-incremental learning</a>
+    <li class="toctree-l2"><a class="reference internal" href="#class-incremental-learning">🌱 Class-Incremental Learning</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#out-of-distribution-detection">Out-of-Distribution Detection</a>
-        <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#unimodal-methods">Unimodal Methods</a>
+    <li class="toctree-l2"><a class="reference internal" href="#out-of-distribution-detection">🚨 Out-of-Distribution Detection</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#clip-based-methods">CLIP-based Methods</a>
+    <li class="toctree-l2"><a class="reference internal" href="#novel-class-discovery">🔍 Novel Class Discovery</a>
     </li>
-        </ul>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#few-shot-class-incremental-learning">Few-shot class-incremental learning</a>
+    <li class="toctree-l2"><a class="reference internal" href="#data-augmentation">🧬 Data Augmentation</a>
     </li>
     </ul>
                   </li>
@@ -79,6 +75,12 @@
               <p class="caption"><span class="caption-text">More Information</span></p>
               <ul>
                   <li class="toctree-l1"><a class="reference internal" href="../people/">People</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../contributing/">Contributing</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../citation/">Citation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../acknowledgment/">Acknowledgment</a>
                   </li>
               </ul>
       </div>
@@ -105,66 +107,121 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h2 id="support-methods-for-openhaiv">Support Methods for OpenHAIV</h2>
-<h3 id="class-incremental-learning">Class-incremental learning</h3>
+                <!-- ## Support Methods for OpenHAIV
+
+### Class-incremental learning
+
+- `Joint`: update models using all the data from all classes.
+- `Finetune`: baseline method which simply update model using current data.
+- `LwF`: Learning without Forgetting. ECCV2016 [[paper](https://arxiv.org/abs/1606.09282)]
+-  `EWC`: Overcoming catastrophic forgetting in neural networks. PNAS 2017 [[paper](https://arxiv.org/abs/1612.00796)]
+-  `iCaRL`: Incremental Classifier and Representation Learning. CVPR 2017 [[paper](https://arxiv.org/abs/1611.07725)]
+-  `BiC`: Large Scale Incremental Learning. CVPR 2019 [[paper](https://arxiv.org/abs/1905.13260)]
+-  `WA`: Maintaining Discrimination and Fairness in Class Incremental Learning. CVPR 2020 [[paper](https://arxiv.org/abs/1911.07053)]
+-  `DER`: DER: Dynamically Expandable Representation for Class Incremental Learning. CVPR 2021 [[paper](https://arxiv.org/abs/2103.16788)]
+-  `Coil`: Co-Transport for Class-Incremental Learning. ACM MM 2021 [[paper](https://arxiv.org/abs/2107.12654)]
+- `FOSTER`: Feature Boosting and Compression for Class-incremental Learning. ECCV 2022 [[paper](https://arxiv.org/abs/2204.04662)]
+-  `SSRE`: Self-Sustaining Representation Expansion for Non-Exemplar Class-Incremental Learning. CVPR2022 [[paper](https://arxiv.org/abs/2203.06359)]
+- `FeTrIL`: Feature Translation for Exemplar-Free Class-Incremental Learning. WACV2023 [[paper](https://arxiv.org/abs/2211.13131)]
+-  `MEMO`: A Model or 603 Exemplars: Towards Memory-Efficient Class-Incremental Learning. ICLR 2023 Spotlight [[paper](https://openreview.net/forum?id=S07feAlQHgM)]
+
+### Out-of-Distribution Detection
+#### Unimodal Methods
+- `MSP`: A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks. ICLR 2017 [[paper](https://arxiv.org/abs/1610.02136)]
+- `MDS`: A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks. NeurIPS 2018 [[paper](https://arxiv.org/abs/1807.03888)]
+- `MLS`: Scaling Out-of-Distribution Detection for Real-World Settings. ICML 2022 [[paper](https://arxiv.org/abs/1911.11132)]
+- `vim`: ViM: Out-Of-Distribution with Virtual-logit Matching. CVPR 2022 [[paper](https://arxiv.org/abs/2203.10807)]
+- `DML`: Decoupling MaxLogit for Out-of-Distribution Detection. CVPR 2023 [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Decoupling_MaxLogit_for_Out-of-Distribution_Detection_CVPR_2023_paper.pdf)]
+- `ODIN`: Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks. ICLR 2018 [[paper](https://arxiv.org/abs/1706.02690)]
+- `FDBD`: Fast Decision Boundary based Out-of-Distribution Detector. ICML 2024 [[paper](https://arxiv.org/abs/2312.11536)]
+- `ASH`: . [[paper]()]
+- `CIDER`: . [[paper]()]
+- `CSI`: . [[paper]()]
+- `GODIN`: . [[paper]()]
+- `MCP`: . [[paper]()]
+- `OpenMax`: . [[paper]()]
+- `MCD`: . [[paper]()]
+- `NPOS`: . [[paper]()]
+- `React`: . [[paper]()]
+#### CLIP-based Methods
+- `MCM`: Delving into Out-of-Distribution Detection with Vision-Language Representations. NeurIPS 2022[[paper](https://arxiv.org/abs/2211.13445)]
+- `NegLabel`: Negative Label Guided OOD Detection with Pretrained Vision-Language Models. ICLR 2024[[paper](https://arxiv.org/abs/2403.20078)]
+- `CoOp`: Learning to Prompt for Vision-Language Models. IJCV 2022[[paper](https://arxiv.org/abs/2109.01134)]
+- `LoCoOp`: LoCoOp: Few-Shot Out-of-Distribution Detection via Prompt Learning. NeurIPS 2023[[paper](https://arxiv.org/abs/2306.01293)]
+- `SCT`: Self-Calibrated Tuning of Vision-Language Models for Out-of-Distribution Detection. NeurIPS 2024[[paper](https://arxiv.org/abs/2411.03359)]
+- `Maple`: MaPLe: Multi-modal Prompt Learning. CVPR 2023[[paper](https://arxiv.org/abs/2210.03117)]
+- `DPM`: Vision-Language Dual-Pattern Matching for Out-of-Distribution Detection. ECCV 2024[[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/11399.pdf)]
+- `Tip-Adapter`: Tip-Adapter: Training-free CLIP-Adapter for Better Vision-Language Modeling. ECCV 2022[[paper](https://arxiv.org/abs/2111.03930)]
+- `NegPrompt`: Learning Transferable Negative Prompts for Out-of-Distribution Detection. CVPR 2024[[paper](https://arxiv.org/abs/2404.03248)]
+
+- `GL-MCM`: GL-MCM: Global and Local Maximum Concept Matching for Zero-Shot Out-of-Distribution Detection. IJCV 2025 [[paper](https://arxiv.org/abs/2304.04521)]
+
+### Few-shot class-incremental learning
+- `Alice`: Few-Shot Class-Incremental Learning from an Open-Set Perspective. ECCV 2022 [[paper](https://arxiv.org/abs/2208.00147)]
+- `FACT`: Forward Compatible Few-Shot Class-Incremental Learning. CVPR 2022 [[paper](https://arxiv.org/abs/2203.06953)]
+- `SAVC`: Learning with Fantasy: Semantic-Aware Virtual Contrastive Constraint for Few-Shot Class-Incremental Learning. CVPR 2023 [[paper](https://arxiv.org/abs/2304.00426)] -->
+
+<h1 id="supported-methods-for-openhaiv">Supported Methods for OpenHAIV</h1>
+<h2 id="class-incremental-learning">🌱 Class-Incremental Learning</h2>
+<p><strong>CNN-based methods</strong></p>
 <ul>
 <li><code>Joint</code>: update models using all the data from all classes.</li>
-<li><code>Finetune</code>: baseline method which simply update model using current data.</li>
-<li><code>LwF</code>: Learning without Forgetting. ECCV2016 [<a href="https://arxiv.org/abs/1606.09282">paper</a>]</li>
+<li><code>Finetune</code>: baseline method which simply updates model using current data.</li>
+<li><code>LwF</code>: Learning without Forgetting. ECCV 2016 [<a href="https://arxiv.org/abs/1606.09282">paper</a>]</li>
 <li><code>EWC</code>: Overcoming catastrophic forgetting in neural networks. PNAS 2017 [<a href="https://arxiv.org/abs/1612.00796">paper</a>]</li>
 <li><code>iCaRL</code>: Incremental Classifier and Representation Learning. CVPR 2017 [<a href="https://arxiv.org/abs/1611.07725">paper</a>]</li>
 <li><code>BiC</code>: Large Scale Incremental Learning. CVPR 2019 [<a href="https://arxiv.org/abs/1905.13260">paper</a>]</li>
 <li><code>WA</code>: Maintaining Discrimination and Fairness in Class Incremental Learning. CVPR 2020 [<a href="https://arxiv.org/abs/1911.07053">paper</a>]</li>
-<li><code>DER</code>: DER: Dynamically Expandable Representation for Class Incremental Learning. CVPR 2021 [<a href="https://arxiv.org/abs/2103.16788">paper</a>]</li>
+<li><code>DER</code>: Dynamically Expandable Representation for Class Incremental Learning. CVPR 2021 [<a href="https://arxiv.org/abs/2103.16788">paper</a>]</li>
 <li><code>Coil</code>: Co-Transport for Class-Incremental Learning. ACM MM 2021 [<a href="https://arxiv.org/abs/2107.12654">paper</a>]</li>
+<li><code>GEM</code>: Gradient Episodic Memory for Continual Learning. NIPS 2017 [<a href="https://arxiv.org/abs/1706.08840">paper</a>]</li>
+<li><code>SSRE</code>: Self-Sustaining Representation Expansion for Non-Exemplar Class-Incremental Learning. CVPR 2022 [<a href="https://arxiv.org/abs/2203.06359">paper</a>]</li>
 <li><code>FOSTER</code>: Feature Boosting and Compression for Class-incremental Learning. ECCV 2022 [<a href="https://arxiv.org/abs/2204.04662">paper</a>]</li>
-<li><code>SSRE</code>: Self-Sustaining Representation Expansion for Non-Exemplar Class-Incremental Learning. CVPR2022 [<a href="https://arxiv.org/abs/2203.06359">paper</a>]</li>
-<li><code>FeTrIL</code>: Feature Translation for Exemplar-Free Class-Incremental Learning. WACV2023 [<a href="https://arxiv.org/abs/2211.13131">paper</a>]</li>
-<li><code>MEMO</code>: A Model or 603 Exemplars: Towards Memory-Efficient Class-Incremental Learning. ICLR 2023 Spotlight [<a href="https://openreview.net/forum?id=S07feAlQHgM">paper</a>]</li>
+<li><code>FeTrIL</code>: Feature Translation for Exemplar-Free Class-Incremental Learning. WACV 2023 [<a href="https://arxiv.org/abs/2211.13131">paper</a>]</li>
+<li><code>MEMO</code>: Memory-Efficient Class-Incremental Learning. ICLR 2023 [<a href="https://openreview.net/forum?id=S07feAlQHgM">paper</a>]</li>
 </ul>
-<h3 id="out-of-distribution-detection">Out-of-Distribution Detection</h3>
-<h4 id="unimodal-methods">Unimodal Methods</h4>
+<p><strong>ViT-based methods</strong></p>
 <ul>
-<li><code>MSP</code>: A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks. ICLR 2017 [<a href="https://arxiv.org/abs/1610.02136">paper</a>]</li>
-<li><code>MDS</code>: A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks. NeurIPS 2018 [<a href="https://arxiv.org/abs/1807.03888">paper</a>]</li>
-<li><code>MLS</code>: Scaling Out-of-Distribution Detection for Real-World Settings. ICML 2022 [<a href="https://arxiv.org/abs/1911.11132">paper</a>]</li>
-<li><code>vim</code>: ViM: Out-Of-Distribution with Virtual-logit Matching. CVPR 2022 [<a href="https://arxiv.org/abs/2203.10807">paper</a>]</li>
-<li><code>DML</code>: Decoupling MaxLogit for Out-of-Distribution Detection. CVPR 2023 [<a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Decoupling_MaxLogit_for_Out-of-Distribution_Detection_CVPR_2023_paper.pdf">paper</a>]</li>
-<li><code>ODIN</code>: Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks. ICLR 2018 [<a href="https://arxiv.org/abs/1706.02690">paper</a>]</li>
-<li><code>FDBD</code>: Fast Decision Boundary based Out-of-Distribution Detector. ICML 2024 [<a href="https://arxiv.org/abs/2312.11536">paper</a>]</li>
-<li><code>ASH</code>: . [<a href="">paper</a>]</li>
-<li><code>CIDER</code>: . [<a href="">paper</a>]</li>
-<li><code>CSI</code>: . [<a href="">paper</a>]</li>
-<li><code>GODIN</code>: . [<a href="">paper</a>]</li>
-<li><code>MCP</code>: . [<a href="">paper</a>]</li>
-<li><code>OpenMax</code>: . [<a href="">paper</a>]</li>
-<li><code>MCD</code>: . [<a href="">paper</a>]</li>
-<li><code>NPOS</code>: . [<a href="">paper</a>]</li>
-<li><code>React</code>: . [<a href="">paper</a>]</li>
+<li><code>Joint</code>: update models using all the data from all classes.</li>
 </ul>
-<h4 id="clip-based-methods">CLIP-based Methods</h4>
-<ul>
-<li><code>MCM</code>: Delving into Out-of-Distribution Detection with Vision-Language Representations. NeurIPS 2022[<a href="https://arxiv.org/abs/2211.13445">paper</a>]</li>
-<li><code>NegLabel</code>: Negative Label Guided OOD Detection with Pretrained Vision-Language Models. ICLR 2024[<a href="https://arxiv.org/abs/2403.20078">paper</a>]</li>
-<li><code>CoOp</code>: Learning to Prompt for Vision-Language Models. IJCV 2022[<a href="https://arxiv.org/abs/2109.01134">paper</a>]</li>
-<li><code>LoCoOp</code>: LoCoOp: Few-Shot Out-of-Distribution Detection via Prompt Learning. NeurIPS 2023[<a href="https://arxiv.org/abs/2306.01293">paper</a>]</li>
-<li><code>SCT</code>: Self-Calibrated Tuning of Vision-Language Models for Out-of-Distribution Detection. NeurIPS 2024[<a href="https://arxiv.org/abs/2411.03359">paper</a>]</li>
-<li><code>Maple</code>: MaPLe: Multi-modal Prompt Learning. CVPR 2023[<a href="https://arxiv.org/abs/2210.03117">paper</a>]</li>
-<li><code>DPM</code>: Vision-Language Dual-Pattern Matching for Out-of-Distribution Detection. ECCV 2024[<a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/11399.pdf">paper</a>]</li>
-<li><code>Tip-Adapter</code>: Tip-Adapter: Training-free CLIP-Adapter for Better Vision-Language Modeling. ECCV 2022[<a href="https://arxiv.org/abs/2111.03930">paper</a>]</li>
-<li>
-<p><code>NegPrompt</code>: Learning Transferable Negative Prompts for Out-of-Distribution Detection. CVPR 2024[<a href="https://arxiv.org/abs/2404.03248">paper</a>]</p>
-</li>
-<li>
-<p><code>GL-MCM</code>: GL-MCM: Global and Local Maximum Concept Matching for Zero-Shot Out-of-Distribution Detection. IJCV 2025 [<a href="https://arxiv.org/abs/2304.04521">paper</a>]</p>
-</li>
-</ul>
-<h3 id="few-shot-class-incremental-learning">Few-shot class-incremental learning</h3>
+<!-- **CLIP-based methods**
+
+- `Joint`: update models using all the data from all classes. -->
+
+<p><strong>Few-shot class-incremental learning</strong></p>
 <ul>
 <li><code>Alice</code>: Few-Shot Class-Incremental Learning from an Open-Set Perspective. ECCV 2022 [<a href="https://arxiv.org/abs/2208.00147">paper</a>]</li>
 <li><code>FACT</code>: Forward Compatible Few-Shot Class-Incremental Learning. CVPR 2022 [<a href="https://arxiv.org/abs/2203.06953">paper</a>]</li>
-<li><code>SAVC</code>: Learning with Fantasy: Semantic-Aware Virtual Contrastive Constraint for Few-Shot Class-Incremental Learning. CVPR 2023 [<a href="https://arxiv.org/abs/2304.00426">paper</a>]</li>
+<li><code>SAVC</code>: Semantic-Aware Virtual Contrastive Constraint for Few-Shot Class-Incremental Learning. CVPR 2023 [<a href="https://arxiv.org/abs/2304.00426">paper</a>]</li>
 </ul>
+<hr />
+<h2 id="out-of-distribution-detection">🚨 Out-of-Distribution Detection</h2>
+<p><strong>CNN-based Methods</strong></p>
+<ul>
+<li><code>MSP</code>: A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks. ICLR 2017 [<a href="https://arxiv.org/abs/1610.02136">paper</a>]</li>
+<li><code>ODIN</code>: Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks. ICLR 2018 [<a href="https://arxiv.org/abs/1706.02690">paper</a>]</li>
+<li><code>MDS</code>: A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks. NeurIPS 2018 [<a href="https://arxiv.org/abs/1807.03888">paper</a>]</li>
+<li><code>MLS</code>: Scaling Out-of-Distribution Detection for Real-World Settings. ICML 2022 [<a href="https://arxiv.org/abs/1911.11132">paper</a>]</li>
+<li><code>ViM</code>: Out-Of-Distribution with Virtual-logit Matching. CVPR 2022 [<a href="https://arxiv.org/abs/2203.10807">paper</a>]</li>
+<li><code>FDBD</code>: Fast Decision Boundary based Out-of-Distribution Detector. ICML 2024 [<a href="https://arxiv.org/abs/2312.11536">paper</a>]</li>
+<li><code>VOS</code>: Learning What You Don't Know by Virtual Outlier Synthesis. ICLR 2022 [<a href="https://arxiv.org/abs/2202.01197">paper</a>]</li>
+<li><code>LogitNorm</code>: Mitigating Neural Network Overconfidence with Logit Normalization. ICML 2022 [<a href="https://arxiv.org/abs/2205.09310">paper</a>]</li>
+<li><code>DML</code>: Decoupling MaxLogit for Out-of-Distribution Detection. CVPR 2023 [<a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Decoupling_MaxLogit_for_Out-of-Distribution_Detection_CVPR_2023_paper.pdf">paper</a>]</li>
+</ul>
+<p><strong>CLIP-based Methods</strong></p>
+<ul>
+<li><code>MCM</code>: Delving into Out-of-Distribution Detection with Vision-Language Representations. NeurIPS 2022 [<a href="https://arxiv.org/abs/2211.13445">paper</a>]</li>
+<li><code>GLMCM</code>: Global and Local Maximum Concept Matching for Zero-Shot Out-of-Distribution Detection. IJCV 2025 [<a href="https://arxiv.org/abs/2304.04521">paper</a>]</li>
+<li><code>CoOp</code>: Learning to Prompt for Vision-Language Models. IJCV 2022 [<a href="https://arxiv.org/abs/2109.01134">paper</a>]</li>
+<li><code>LoCoOp</code>: Few-Shot Out-of-Distribution Detection via Prompt Learning. NeurIPS 2023 [<a href="https://arxiv.org/abs/2306.01293">paper</a>]</li>
+<li><code>SCT</code>: Self-Calibrated Tuning of Vision-Language Models for Out-of-Distribution Detection. NeurIPS 2024 [<a href="https://arxiv.org/abs/2411.03359">paper</a>]</li>
+<li><code>DPM</code>: Vision-Language Dual-Pattern Matching for Out-of-Distribution Detection. ECCV 2024 [<a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/11399.pdf">paper</a>]</li>
+</ul>
+<hr />
+<h2 id="novel-class-discovery">🔍 Novel Class Discovery</h2>
+<p>TBD</p>
+<h2 id="data-augmentation">🧬 Data Augmentation</h2>
+<p>TBD</p>
               
             </div>
           </div><footer>
@@ -177,6 +234,7 @@
 
   <div role="contentinfo">
     <!-- Copyright etc -->
+      <p>Copyright &copy; 2025 <a href="https://github.com/HAIV-Lab" target="_blank">HAIV Lab</a>. Licensed under the <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a>.</p>
   </div>
 
   Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.

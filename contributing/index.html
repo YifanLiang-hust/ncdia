@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Document - OpenHAIV</title>
+    <title>Contributing - OpenHAIV</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
@@ -13,8 +13,8 @@
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Document";
-        var mkdocs_page_input_path = "document.md";
+        var mkdocs_page_name = "Contributing";
+        var mkdocs_page_input_path = "contributing.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -63,10 +63,16 @@
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">More Information</span></p>
-              <ul>
+              <ul class="current">
                   <li class="toctree-l1"><a class="reference internal" href="../people/">People</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../contributing/">Contributing</a>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Contributing</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#reporting-issues">🐛 Reporting Issues</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#submitting-pull-requests">💡 Submitting Pull Requests</a>
+    </li>
+    </ul>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../citation/">Citation</a>
                   </li>
@@ -87,7 +93,8 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
-      <li class="breadcrumb-item active">Document</li>
+          <li class="breadcrumb-item">More Information</li>
+      <li class="breadcrumb-item active">Contributing</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -96,34 +103,43 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h3 id="config">config</h3>
-<h4 id="configalgorithms">config.algorithms</h4>
-<h4 id="configdataloader">config.dataloader</h4>
-<h4 id="configmodel">config.model</h4>
-<h4 id="configpipeline">config.pipeline</h4>
-<h3 id="ncdia">ncdia</h3>
-<h4 id="algorithms">algorithms</h4>
-<p>Includes incremental learning algorithms, new class discovery algorithms, and out-of-distribution detection algorithms, as well as supervised learning algorithms.</p>
-<h5 id="ncdautoncdpy">ncd.autoncd.py</h5>
-<p>Modules related to novel class discovery.</p>
-<h6 id="autoncd-model-train_loader-test_loader-devicenone-verbosefalse">AutoNCD (model, train_loader, test_loader, device=None, verbose=False)</h6>
-<p>Class for novel class discovery.</p>
-<ul>
-<li><strong>model</strong></li>
-<li><strong>train_loader</strong></li>
-<li><strong>test_loader</strong></li>
-<li><strong>device</strong></li>
-<li><strong>verbose</strong></li>
+                <h3 id="contributing-guidelines">🛠️ Contributing Guidelines</h3>
+<p>We welcome contributions to OpenHAIV 🤗</p>
+<p>👇 If you're interested in improving the project, please follow these guidelines </p>
+<h4 id="reporting-issues">🐛 Reporting Issues</h4>
+<ol>
+<li><strong>Check existing issues</strong> first to avoid duplicates</li>
+<li><strong>Use the issue template</strong> when available</li>
+<li><strong>Be specific</strong> about the problem:<ul>
+<li>Include steps to reproduce</li>
+<li>Provide environment details (OS, Python version, dependencies)</li>
+<li>Add screenshots if applicable</li>
+<li>Describe expected vs. actual behavior</li>
 </ul>
-<h4 id="ncdiadataloader">ncdia.dataloader</h4>
-<h4 id="ncdiainference">ncdia.inference</h4>
-<h4 id="ncdiamodel">ncdia.model</h4>
-<h4 id="ncdiatrainers">ncdia.trainers</h4>
-<h4 id="ncdiautils">ncdia.utils</h4>
-<h3 id="scripts">scripts</h3>
+</li>
+</ol>
+<h4 id="submitting-pull-requests">💡 Submitting Pull Requests</h4>
+<ol>
+<li><strong>Create an issue first</strong> to discuss major changes</li>
+<li><strong>Fork the repository</strong> and create a branch from <code>main</code></li>
+<li><strong>Follow the coding style</strong> used throughout the project:<ul>
+<li>Adhere to PEP 8 guidelines</li>
+<li>Use meaningful variable/function names</li>
+<li>Add docstrings for new functions/classes</li>
+</ul>
+</li>
+<li><strong>Write tests</strong> for new features</li>
+<li><strong>Ensure all tests pass</strong> before submitting</li>
+<li><strong>Update documentation</strong> reflecting your changes</li>
+<li><strong>Make atomic commits</strong> with clear messages</li>
+</ol>
               
             </div>
           </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../people/" class="btn btn-neutral float-left" title="People"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../citation/" class="btn btn-neutral float-right" title="Citation">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
 
   <hr/>
 
@@ -146,6 +162,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
+      <span><a href="../people/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../citation/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
