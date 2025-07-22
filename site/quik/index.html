@@ -46,9 +46,11 @@
                   </li>
                   <li class="toctree-l1 current"><a class="reference internal current" href="#">Quik Start</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#create-virtual-environment">create virtual environment</a>
+    <li class="toctree-l2"><a class="reference internal" href="#installation">📦 Installation</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#install-package">install package</a>
+    <li class="toctree-l2"><a class="reference internal" href="#environment-setup">🔧 Environment Setup</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#running-examples">🏃‍♂️ Running Examples</a>
     </li>
     </ul>
                   </li>
@@ -71,6 +73,12 @@
               <p class="caption"><span class="caption-text">More Information</span></p>
               <ul>
                   <li class="toctree-l1"><a class="reference internal" href="../people/">People</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../contributing/">Contributing</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../citation/">Citation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../acknowledgment/">Acknowledgment</a>
                   </li>
               </ul>
       </div>
@@ -97,33 +105,41 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h2 id="install">Install</h2>
-<p>It is recommended to use anaconda3 to manage and maintain the python library environment.
-1. Download the .sh file from the anaconda3 website
-2. install anaconda3 with .sh file</p>
-<pre><code>bash Anaconda3-2023.03-Linux-x86_64.sh
+                <h3 id="getting-started">🚀 Getting Started</h3>
+<h4 id="installation">📦 Installation</h4>
+<p>It is recommended to use anaconda3 to manage and maintain the python library environment.</p>
+<ol>
+<li>Download the .sh file from the anaconda3 website</li>
+<li>Install anaconda3 with .sh file</li>
+</ol>
+<pre><code class="language-bash">bash Anaconda3-2023.03-Linux-x86_64.sh
 </code></pre>
-<h3 id="create-virtual-environment">create virtual environment</h3>
-<pre><code>conda create -n ncdia python=3.10 -y
-conda activate ncdia
+<h4 id="environment-setup">🔧 Environment Setup</h4>
+<p>Create and activate a virtual environment:</p>
+<pre><code class="language-bash">conda create -n openhaiv python=3.10 -y
+conda activate openhaiv
 pip install -r requirements.txt
 python setup.py install
 </code></pre>
-<h3 id="install-package">install package</h3>
-<ul>
-<li>pytorch&gt;=1.12.0 torchvision&gt;=0.13.0 (recommand offical torch command)</li>
-<li>numpy&gt;=1.26.4</li>
-<li>scipy&gt;=1.14.0</li>
-<li>scikit-learn&gt;=1.5.1</li>
-</ul>
-<h2 id="run">Run</h2>
-<h3 id="ood">OOD</h3>
-<p>Example: </p>
-<pre><code>bash ./scripts/det_oes_rn18_msp.sh
+<p>Required packages:
+* pytorch&gt;=1.12.0 torchvision&gt;=0.13.0 (recommend official torch command)
+* numpy&gt;=1.26.4
+* scipy&gt;=1.14.0
+* scikit-learn&gt;=1.5.1</p>
+<h4 id="running-examples">🏃‍♂️ Running Examples</h4>
+<p><strong>Out-of-Distribution Detection</strong></p>
+<pre><code class="language-bash">python ncdia/train.py --cfg configs/pipeline/ood_detection/msp/det_oes_rn50_msp_train.yaml --opts device='cuda:0'
 </code></pre>
-<h3 id="cil">CIL</h3>
-<p>Example:</p>
-<pre><code>bash ./scripts/inc_BM200_lwf.sh
+<p><strong>Class-incremental Learning</strong></p>
+<pre><code class="language-bash">bash ./scripts/inc_BM200_lwf.sh  
+</code></pre>
+<p><strong>Novel Class Discovery</strong></p>
+<pre><code class="language-bash"># Set required parameters
+# - model weight in weight_path
+# - id_txt_file and ood_txt_file
+# - output_dir
+
+python ncd.py
 </code></pre>
               
             </div>
@@ -137,6 +153,7 @@ python setup.py install
 
   <div role="contentinfo">
     <!-- Copyright etc -->
+      <p>Copyright &copy; 2025 <a href="https://github.com/HAIV-Lab" target="_blank">HAIV Lab</a>. Licensed under the <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a>.</p>
   </div>
 
   Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.

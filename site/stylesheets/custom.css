@@ -1,6 +1,6 @@
 /* 让文档内容占满整个屏幕宽度 */
 .wy-nav-content {
-    max-width: 60% !important;  /* 覆盖默认的 800px 限制 */
+    max-width: 80% !important;  /* 覆盖默认的 800px 限制 */
     padding: 2rem 3rem;          /* 调整内边距，避免内容贴边 */
 }
 
