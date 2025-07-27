@@ -68,6 +68,10 @@
                   </li>
                   <li class="toctree-l1 current"><a class="reference internal current" href="#">Contributing</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#code-style">🧹 Code Style</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#code-of-conduct">📜 Code of Conduct</a>
+    </li>
     <li class="toctree-l2"><a class="reference internal" href="#reporting-issues">🐛 Reporting Issues</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#submitting-pull-requests">💡 Submitting Pull Requests</a>
@@ -103,10 +107,26 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h3 id="contributing-guidelines">🛠️ Contributing Guidelines</h3>
+                <h1 id="contributing-guidelines">🛠️ Contributing Guidelines</h1>
 <p>We welcome contributions to OpenHAIV 🤗</p>
-<p>👇 If you're interested in improving the project, please follow these guidelines </p>
-<h4 id="reporting-issues">🐛 Reporting Issues</h4>
+<p>👇 If you're interested in improving the project, please follow these guidelines</p>
+<h2 id="code-style">🧹 Code Style</h2>
+<p>This project uses <a href="https://pre-commit.com/">pre-commit</a> to automatically enforce code style and quality before each commit. Please install pre-commit and run:</p>
+<pre><code class="language-bash">pip install pre-commit
+pre-commit install
+</code></pre>
+<p>The main checks include:</p>
+<ul>
+<li>flake8: PEP8 code style checking</li>
+<li>yapf: automatic Python code formatting</li>
+<li>codespell: spell checking</li>
+<li>docformatter: automatic docstring formatting</li>
+<li>trailing-whitespace, end-of-file-fixer, mixed-line-ending and other basic formatting fixes</li>
+</ul>
+<p>See the <code>.pre-commit-config.yaml</code> file for detailed configuration. All these checks and fixes will be run automatically before every commit.</p>
+<h2 id="code-of-conduct">📜 Code of Conduct</h2>
+<p>Please note that all contributors are expected to follow our <a href="https://github.com/HAIV-Lab/openhaiv/blob/main/CODE_OF_CONDUCT.md">Code of Conduct</a> to foster a welcoming and inclusive community.</p>
+<h2 id="reporting-issues">🐛 Reporting Issues</h2>
 <ol>
 <li><strong>Check existing issues</strong> first to avoid duplicates</li>
 <li><strong>Use the issue template</strong> when available</li>
@@ -118,7 +138,7 @@
 </ul>
 </li>
 </ol>
-<h4 id="submitting-pull-requests">💡 Submitting Pull Requests</h4>
+<h2 id="submitting-pull-requests">💡 Submitting Pull Requests</h2>
 <ol>
 <li><strong>Create an issue first</strong> to discuss major changes</li>
 <li><strong>Fork the repository</strong> and create a branch from <code>main</code></li>
