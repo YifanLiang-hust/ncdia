@@ -49,8 +49,20 @@
                   <li class="toctree-l1 current"><a class="reference internal current" href="#">Reproduced Methods</a>
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#class-incremental-learning">🌱 Class-Incremental Learning</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#cnn-based-methods">CNN-based methods</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#vit-based-methods">ViT-based methods</a>
+    </li>
+        </ul>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#out-of-distribution-detection">🚨 Out-of-Distribution Detection</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#cnn-based-methods_1">CNN-based Methods</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#clip-based-methods">CLIP-based Methods</a>
+    </li>
+        </ul>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#novel-class-discovery">🔍 Novel Class Discovery</a>
     </li>
@@ -161,9 +173,9 @@
 - `FACT`: Forward Compatible Few-Shot Class-Incremental Learning. CVPR 2022 [[paper](https://arxiv.org/abs/2203.06953)]
 - `SAVC`: Learning with Fantasy: Semantic-Aware Virtual Contrastive Constraint for Few-Shot Class-Incremental Learning. CVPR 2023 [[paper](https://arxiv.org/abs/2304.00426)] -->
 
-<h1 id="supported-methods-for-openhaiv">Supported Methods for OpenHAIV</h1>
+<h1 id="supported-methods">📚 Supported Methods</h1>
 <h2 id="class-incremental-learning">🌱 Class-Incremental Learning</h2>
-<p><strong>CNN-based methods</strong></p>
+<h3 id="cnn-based-methods"><strong>CNN-based methods</strong></h3>
 <ul>
 <li><code>Joint</code>: update models using all the data from all classes.</li>
 <li><code>Finetune</code>: baseline method which simply updates model using current data.</li>
@@ -180,7 +192,7 @@
 <li><code>FeTrIL</code>: Feature Translation for Exemplar-Free Class-Incremental Learning. WACV 2023 [<a href="https://arxiv.org/abs/2211.13131">paper</a>]</li>
 <li><code>MEMO</code>: Memory-Efficient Class-Incremental Learning. ICLR 2023 [<a href="https://openreview.net/forum?id=S07feAlQHgM">paper</a>]</li>
 </ul>
-<p><strong>ViT-based methods</strong></p>
+<h3 id="vit-based-methods"><strong>ViT-based methods</strong></h3>
 <ul>
 <li><code>Joint</code>: update models using all the data from all classes.</li>
 </ul>
@@ -196,7 +208,7 @@
 </ul>
 <hr />
 <h2 id="out-of-distribution-detection">🚨 Out-of-Distribution Detection</h2>
-<p><strong>CNN-based Methods</strong></p>
+<h3 id="cnn-based-methods_1"><strong>CNN-based Methods</strong></h3>
 <ul>
 <li><code>MSP</code>: A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks. ICLR 2017 [<a href="https://arxiv.org/abs/1610.02136">paper</a>]</li>
 <li><code>ODIN</code>: Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks. ICLR 2018 [<a href="https://arxiv.org/abs/1706.02690">paper</a>]</li>
@@ -208,7 +220,7 @@
 <li><code>LogitNorm</code>: Mitigating Neural Network Overconfidence with Logit Normalization. ICML 2022 [<a href="https://arxiv.org/abs/2205.09310">paper</a>]</li>
 <li><code>DML</code>: Decoupling MaxLogit for Out-of-Distribution Detection. CVPR 2023 [<a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Decoupling_MaxLogit_for_Out-of-Distribution_Detection_CVPR_2023_paper.pdf">paper</a>]</li>
 </ul>
-<p><strong>CLIP-based Methods</strong></p>
+<h3 id="clip-based-methods"><strong>CLIP-based Methods</strong></h3>
 <ul>
 <li><code>MCM</code>: Delving into Out-of-Distribution Detection with Vision-Language Representations. NeurIPS 2022 [<a href="https://arxiv.org/abs/2211.13445">paper</a>]</li>
 <li><code>GLMCM</code>: Global and Local Maximum Concept Matching for Zero-Shot Out-of-Distribution Detection. IJCV 2025 [<a href="https://arxiv.org/abs/2304.04521">paper</a>]</li>

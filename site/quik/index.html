@@ -51,6 +51,14 @@
     <li class="toctree-l2"><a class="reference internal" href="#environment-setup">🔧 Environment Setup</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#running-examples">🏃‍♂️ Running Examples</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#out-of-distribution-detection">🚨 Out-of-Distribution Detection</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#class-incremental-learning">🌱 Class-incremental Learning</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#novel-class-discovery">🔍 Novel Class Discovery</a>
+    </li>
+        </ul>
     </li>
     </ul>
                   </li>
@@ -105,8 +113,8 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h3 id="getting-started">🚀 Getting Started</h3>
-<h4 id="installation">📦 Installation</h4>
+                <h1 id="quick-start">🚀 Quick Start</h1>
+<h2 id="installation">📦 Installation</h2>
 <p>It is recommended to use anaconda3 to manage and maintain the python library environment.</p>
 <ol>
 <li>Download the .sh file from the anaconda3 website</li>
@@ -114,26 +122,28 @@
 </ol>
 <pre><code class="language-bash">bash Anaconda3-2023.03-Linux-x86_64.sh
 </code></pre>
-<h4 id="environment-setup">🔧 Environment Setup</h4>
+<h2 id="environment-setup">🔧 Environment Setup</h2>
 <p>Create and activate a virtual environment:</p>
 <pre><code class="language-bash">conda create -n openhaiv python=3.10 -y
 conda activate openhaiv
 pip install -r requirements.txt
 python setup.py install
 </code></pre>
-<p>Required packages:
-* pytorch&gt;=1.12.0 torchvision&gt;=0.13.0 (recommend official torch command)
-* numpy&gt;=1.26.4
-* scipy&gt;=1.14.0
-* scikit-learn&gt;=1.5.1</p>
-<h4 id="running-examples">🏃‍♂️ Running Examples</h4>
-<p><strong>Out-of-Distribution Detection</strong></p>
+<p>Required packages:</p>
+<ul>
+<li>pytorch&gt;=1.12.0 torchvision&gt;=0.13.0 (recommend official torch command)</li>
+<li>numpy&gt;=1.26.4</li>
+<li>scipy&gt;=1.14.0</li>
+<li>scikit-learn&gt;=1.5.1</li>
+</ul>
+<h2 id="running-examples">🏃‍♂️ Running Examples</h2>
+<h3 id="out-of-distribution-detection"><strong>🚨 Out-of-Distribution Detection</strong></h3>
 <pre><code class="language-bash">python ncdia/train.py --cfg configs/pipeline/ood_detection/msp/det_oes_rn50_msp_train.yaml --opts device='cuda:0'
 </code></pre>
-<p><strong>Class-incremental Learning</strong></p>
+<h3 id="class-incremental-learning"><strong>🌱 Class-incremental Learning</strong></h3>
 <pre><code class="language-bash">bash ./scripts/inc_BM200_lwf.sh  
 </code></pre>
-<p><strong>Novel Class Discovery</strong></p>
+<h3 id="novel-class-discovery"><strong>🔍 Novel Class Discovery</strong></h3>
 <pre><code class="language-bash"># Set required parameters
 # - model weight in weight_path
 # - id_txt_file and ood_txt_file
