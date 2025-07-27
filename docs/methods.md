@@ -52,11 +52,11 @@
 - `FACT`: Forward Compatible Few-Shot Class-Incremental Learning. CVPR 2022 [[paper](https://arxiv.org/abs/2203.06953)]
 - `SAVC`: Learning with Fantasy: Semantic-Aware Virtual Contrastive Constraint for Few-Shot Class-Incremental Learning. CVPR 2023 [[paper](https://arxiv.org/abs/2304.00426)] -->
 
-# Supported Methods for OpenHAIV
+# 📚 Supported Methods
 
 ## 🌱 Class-Incremental Learning
 
-**CNN-based methods**
+### **CNN-based methods**
 
 - `Joint`: update models using all the data from all classes.
 - `Finetune`: baseline method which simply updates model using current data.
@@ -73,7 +73,7 @@
 - `FeTrIL`: Feature Translation for Exemplar-Free Class-Incremental Learning. WACV 2023 [[paper](https://arxiv.org/abs/2211.13131)]
 - `MEMO`: Memory-Efficient Class-Incremental Learning. ICLR 2023 [[paper](https://openreview.net/forum?id=S07feAlQHgM)]
 
-**ViT-based methods**
+### **ViT-based methods**
 
 - `Joint`: update models using all the data from all classes.
 
@@ -91,7 +91,7 @@
 
 ## 🚨 Out-of-Distribution Detection
 
-**CNN-based Methods**
+### **CNN-based Methods**
 
 - `MSP`: A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks. ICLR 2017 [[paper](https://arxiv.org/abs/1610.02136)]
 - `ODIN`: Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks. ICLR 2018 [[paper](https://arxiv.org/abs/1706.02690)]
@@ -103,7 +103,7 @@
 - `LogitNorm`: Mitigating Neural Network Overconfidence with Logit Normalization. ICML 2022 [[paper](https://arxiv.org/abs/2205.09310)]
 - `DML`: Decoupling MaxLogit for Out-of-Distribution Detection. CVPR 2023 [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Decoupling_MaxLogit_for_Out-of-Distribution_Detection_CVPR_2023_paper.pdf)]
 
-**CLIP-based Methods**
+### **CLIP-based Methods**
 
 - `MCM`: Delving into Out-of-Distribution Detection with Vision-Language Representations. NeurIPS 2022 [[paper](https://arxiv.org/abs/2211.13445)]
 - `GLMCM`: Global and Local Maximum Concept Matching for Zero-Shot Out-of-Distribution Detection. IJCV 2025 [[paper](https://arxiv.org/abs/2304.04521)]
@@ -115,7 +115,9 @@
 ---
 
 ## 🔍 Novel Class Discovery
+
 TBD
 
 ## 🧬 Data Augmentation
+
 TBD

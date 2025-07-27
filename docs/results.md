@@ -1,6 +1,7 @@
+# 📊 Results
 
-## 📊 Results
-### 🌍 Open World Learning
+## 🌍 Open World Learning
+
 **Table 1.  The experiments of OWL on OpenEarthSensing dataset. ID Acc and ODD Acc are the in-distribution and out-of-distribution performance, respectively, and Avg denotes the average performance of each session.**
 
 | OOD Method   | CIL Method   | ID Acc | OOD Acc | Session 1 | Session 2 | Avg   |  
@@ -33,6 +34,7 @@
 | SAVC  | 71.71  | 79.55    | 72.23  | 80.07    | 66.61  | 75.17    | 59.63  | 76.77    |  
 
 ### 🚨 Out-of-Distribution Detection
+
 #### CNN-based Methods
 
 **Table 3. OOD detection performance on OES benchmark. 'Near' represents the average AUROC for Near-OOD datasets, 'Far' indicates the average AUROC for Far-OOD datasets.**
@@ -64,4 +66,3 @@
 | LoCoOp | 85.71   | 90.94    | 66.20   | 71.67    | 64.18   | 76.52    | 69.64   | 86.28    | 61.41   | 43.33    |  
 | SCT    | 85.56   | 90.78    | 65.37   | 70.30    | 64.14   | 77.67    | 68.58   | 86.41    | 60.81   | 42.48    |  
 | DPM    | 91.19   | 99.24    | 68.60   | 92.61    | 60.50   | 71.26    | 74.66   | 93.56    | 65.11   | 75.10    |  
-
