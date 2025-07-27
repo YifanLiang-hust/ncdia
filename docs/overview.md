@@ -1,9 +1,8 @@
 # 🗺️ Overview
-<div align="center">
-  <img src="images/pipeline.png" alt="pipeline" width="60%"/>
-</div>
 
-<!-- ![pipeline](images/pipeline.png) -->
+<div align="center">
+  <img src="../images/pipeline.png" alt="pipeline" width="60%"/>
+</div>
 
 The framework adopts a modular design overall, which is reflected in two key aspects:
 
