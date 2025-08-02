@@ -9,15 +9,15 @@
 
 ![google-scholar](icons/google-scholar.png){width="18" style="vertical-align:middle;"} [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=-D5k5ioAAAAJ) &#124; ![Github](icons/github.png){width="18" style="vertical-align:middle;"} [Homepage](https://eglxiang.github.io/) &#124; ✉️ [xex@hust.edu.cn](mailto:xex@hust.edu.cn)
 
-Xiang Xiang is currently an **associate professor** of Intelligence Science and Technology at ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*, where he founds and directs the <span style="color:#d32f2f">**HUST AIA Image and Vision Learning Lab (HAIV Lab)**</span> since *2021*, working on **computer vision** and **open-world learning**.
+Xiang Xiang is currently an **associate professor** of **Intelligence Science and Technology** and **computer science** at ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*, where he founds and directs the <span style="color:#1976d2">**HUST AIA Image and Vision Learning Lab (HAIV Lab)**</span> since *2021*, working on **computer vision** and **open-world learning**.
 
-He is a senior member of ![CSIG](icons/csig.png){width="18" style="vertical-align:middle;"}  **China Society of Image and Graphics (CSIG)**, and also visiting with ![PCLab](icons/pclab.png){width="18" style="vertical-align:middle;"}  **Peng Cheng Laborotory**, *Shenzhen, China*.
+<!-- He is a senior member of ![CSIG](icons/csig.png){width="18" style="vertical-align:middle;"}  **China Society of Image and Graphics (CSIG)**, and also visiting with ![PCLab](icons/pclab.png){width="18" style="vertical-align:middle;"}  **Peng Cheng Laborotory**, *Shenzhen, China*.
 
 He has heavily published papers at venues such as ***CVPR*, *ICCV*, *ECCV*, *ICML*, *ACM Multimedia*, *MICCAI* **, and in journals such as ***IJCV*, *TPAMI*, *TCSVT* **, and been honorably mentioned twice for the <span style="color:#1976d2">**AI 2000 Most Influential Scholar Award**</span> in recognition of outstanding and vibrant contributions in the field of multimedia in the past decade.
 
 He has been an applied scientist at ![AWS](icons/aws.png){width="18" style="vertical-align:middle;"}  **AWS AI Labs**, *Seattle, USA*, since *2018*, until moving to ![TS](icons/tusimple.png){width="18" style="vertical-align:middle;"}  **TuSimple**, *San Diego, USA*, as a senior research scientist in *2020*.
 
-Before that, he received the B.S. degree from ![WHU](icons/whu.png){width="18" style="vertical-align:middle;"}  **Wuhan University**, *Wuhan, China*, in *2009*, the M.S. degree from ![ICT](icons/ict.png){width="18" style="vertical-align:middle;"}  **Institute of Computing Technology, Chinese Academy of Sciences**, *Beijing, China*, in *2012*, the M.S.E. and Ph.D. degrees from ![JHU](icons/jhu.png){width="18" style="vertical-align:middle;"}  **Johns Hopkins University**, *Baltimore, USA*, in *2014* and *2018*, respectively, all in computer science.
+Before that, he received the B.S. degree from ![WHU](icons/whu.png){width="18" style="vertical-align:middle;"}  **Wuhan University**, *Wuhan, China*, in *2009*, the M.S. degree from ![ICT](icons/ict.png){width="18" style="vertical-align:middle;"}  **Institute of Computing Technology, Chinese Academy of Sciences**, *Beijing, China*, in *2012*, the M.S.E. and Ph.D. degrees from ![JHU](icons/jhu.png){width="18" style="vertical-align:middle;"}  **Johns Hopkins University**, *Baltimore, USA*, in *2014* and *2018*, respectively, all in computer science. -->
 
 ---
 
@@ -53,11 +53,11 @@ We would like to express our special gratitude to the following contributors who
 
 - **Zhang Zihan**
 
-Zhang zihan has received both B.S. and M.S. degrees from the School of Artificial Intelligence and Automation, ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*. He is currently working at ![Mobile](icons/mobile.png){width="18" style="vertical-align:middle;"}  **China Mobile Zhejiang Innovation Institute**, *Hangzhou, China*.
+Zhang Zihan has received both B.S. and M.S. degrees from the School of Artificial Intelligence and Automation, ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*. He is currently working at ![Mobile](icons/mobile.png){width="18" style="vertical-align:middle;"}  **China Mobile Zhejiang Innovation Institute**, *Hangzhou, China*.
 
 - **Tan Yuwen**
 
-Tan Yuwen has received both B.S. and M.S. degrees from the School of Artificial Intelligence and Automation, ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*. He is currently pursuing a Ph.D. in Computer Science and Technology at ![Boston](icons/boston.png){width="18" style="vertical-align:middle;"}  **Boston University**, *Boston, USA*, supervised by Prof. Gong Boqi.
+Tan Yuwen has received both B.S. and M.S. degrees from the School of Artificial Intelligence and Automation, ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*. She is currently pursuing a Ph.D. in Computer Science and Technology at ![Boston](icons/boston.png){width="18" style="vertical-align:middle;"}  **Boston University**, *Boston, USA*, supervised by Prof. Gong Boqi.
 
 - **Deng Yao**
 
