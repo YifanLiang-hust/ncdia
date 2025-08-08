@@ -9,7 +9,17 @@
 
 ![google-scholar](icons/google-scholar.png){width="18" style="vertical-align:middle;"} [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=-D5k5ioAAAAJ) &#124; ![Github](icons/github.png){width="18" style="vertical-align:middle;"} [Homepage](https://eglxiang.github.io/) &#124; ✉️ [xex@hust.edu.cn](mailto:xex@hust.edu.cn)
 
-Xiang Xiang is currently an **associate professor** of **Intelligence Science and Technology** and **computer science** at ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*, where he founds and directs the <span style="color:#1976d2">**HUST AIA Image and Vision Learning Lab (HAIV Lab)**</span> since *2021*, working on **computer vision** and **open-world learning**.
+<!-- Xiang Xiang is currently an  -->
+
+**Associate Professor** of ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  Huazhong University of Science and Technology
+
+**Director** of HUST AIA Image and Vision Learning Lab (HAIV Lab)
+
+<!-- <span style="color:#1976d2">HUST AIA Image and Vision Learning Lab (HAIV Lab)</span>  -->
+
+**Research Interest**: **Computer Vision**, **Open-World Learning**
+
+<!-- **Associate professor** of **Intelligence Science and Technology** and **computer science** at ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*, where he founds and directs the <span style="color:#1976d2">**HUST AIA Image and Vision Learning Lab (HAIV Lab)**</span> since *2021*, working on **computer vision** and **open-world learning**. -->
 
 <!-- He is a senior member of ![CSIG](icons/csig.png){width="18" style="vertical-align:middle;"}  **China Society of Image and Graphics (CSIG)**, and also visiting with ![PCLab](icons/pclab.png){width="18" style="vertical-align:middle;"}  **Peng Cheng Laborotory**, *Shenzhen, China*.
 
@@ -23,48 +33,48 @@ Before that, he received the B.S. degree from ![WHU](icons/whu.png){width="18" s
 
 ### 🤗 Other Authors
 
-- **Zhou Qinhao**
+- **Zhou Qinhao**  ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"} Huazhong University of Science and Technology
 
-Zhou Qinhao received his B.S. degree from ![NWPU](icons/nwpu.jpg){width="18" style="vertical-align:middle;"}  **Northwestern Polytechnical University**, *Xi'an, China*, in 2022, and his M.S. degree from the School of Artificial Intelligence and Automation, ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*, in 2025. He is currently working at ![ByteDance](icons/bytedance-color.svg){width="18" style="vertical-align:middle;"}**ByteDance** , *Beijing, China*.
+<!-- Zhou Qinhao received his B.S. degree from ![NWPU](icons/nwpu.jpg){width="18" style="vertical-align:middle;"}  **Northwestern Polytechnical University**, *Xi'an, China*, in 2022, and his M.S. degree from the School of Artificial Intelligence and Automation, ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*, in 2025. He is currently working at ![ByteDance](icons/bytedance-color.svg){width="18" style="vertical-align:middle;"}**ByteDance** , *Beijing, China*. -->
 
-- **Xu Zhuo**
+- **Xu Zhuo**  ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"} Huazhong University of Science and Technology
 
-Zhuo Xu has received the B.S. degree from ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*, in 2023. He is currently pursuing a M.S. degree at the School of Artificial Intelligence and Automation, ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*. His research interests include open-set recognition and out-of-distribution detection.
+<!-- Zhuo Xu has received the B.S. degree from ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*, in 2023. He is currently pursuing a M.S. degree at the School of Artificial Intelligence and Automation, ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*. His research interests include open-set recognition and out-of-distribution detection. -->
 
-- **Ma Jing**
+- **Ma Jing**  ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"} Huazhong University of Science and Technology
 
-Ma Jing received his B.S. degree from ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*, in 2022, and his M.S. degree from the School of Artificial Intelligence and Automation, ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*, in 2025. He is currently working at ![iFT](icons/iflytek.png){width="18" style="vertical-align:middle;"}**iFLYTEK**, *Hefei, China*.
+<!-- Ma Jing received his B.S. degree from ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*, in 2022, and his M.S. degree from the School of Artificial Intelligence and Automation, ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*, in 2025. He is currently working at ![iFT](icons/iflytek.png){width="18" style="vertical-align:middle;"}**iFLYTEK**, *Hefei, China*. -->
 
-- **Dai Jiaxin**
+- **Dai Jiaxin**  ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"} Huazhong University of Science and Technology
 
-Dai Jiaxin has received the B.S. degree from ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*, in 2025. He is currently pursuing a M.S. degree at the School of Artificial Intelligence and Automation, ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*.
+<!-- Dai Jiaxin has received the B.S. degree from ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*, in 2025. He is currently pursuing a M.S. degree at the School of Artificial Intelligence and Automation, ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*. -->
 
-- **Liang Yifan**
+- **Liang Yifan**  ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"} Huazhong University of Science and Technology
 
-Liang Yifan has received the B.S. degree from ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*, in 2025. He is currently pursuing a M.S. degree at the School of Artificial Intelligence and Automation, ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*.
+<!-- Liang Yifan has received the B.S. degree from ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*, in 2025. He is currently pursuing a M.S. degree at the School of Artificial Intelligence and Automation, ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*. -->
 
-- **Li Hanlin**
+- **Li Hanlin**  ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"} Huazhong University of Science and Technology
 
-Li Hanlin has received the B.S. degree from ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*, in 2025. He is currently pursuing a M.S. degree at the School of Artificial Intelligence and Automation, ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*.
+<!-- Li Hanlin has received the B.S. degree from ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*, in 2025. He is currently pursuing a M.S. degree at the School of Artificial Intelligence and Automation, ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*. -->
 
 ### 🙏 Special Thanks
 
 We would like to express our special gratitude to the following contributors who have graduated but made significant contributions to this project:
 
-- **Zhang Zihan**
+- **Zhang Zihan**  ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"} Huazhong University of Science and Technology
 
-Zhang Zihan has received both B.S. and M.S. degrees from the School of Artificial Intelligence and Automation, ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*. He is currently working at ![Mobile](icons/mobile.png){width="18" style="vertical-align:middle;"}  **China Mobile Zhejiang Innovation Institute**, *Hangzhou, China*.
+<!-- Zhang Zihan has received both B.S. and M.S. degrees from the School of Artificial Intelligence and Automation, ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*. He is currently working at ![Mobile](icons/mobile.png){width="18" style="vertical-align:middle;"}  **China Mobile Zhejiang Innovation Institute**, *Hangzhou, China*. -->
 
-- **Tan Yuwen**
+- **Tan Yuwen**  ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"} Huazhong University of Science and Technology
 
-Tan Yuwen has received both B.S. and M.S. degrees from the School of Artificial Intelligence and Automation, ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*. She is currently pursuing a Ph.D. in Computer Science and Technology at ![Boston](icons/boston.png){width="18" style="vertical-align:middle;"}  **Boston University**, *Boston, USA*, supervised by Prof. Gong Boqi.
+<!-- Tan Yuwen has received both B.S. and M.S. degrees from the School of Artificial Intelligence and Automation, ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*. She is currently pursuing a Ph.D. in Computer Science and Technology at ![Boston](icons/boston.png){width="18" style="vertical-align:middle;"}  **Boston University**, *Boston, USA*, supervised by Prof. Gong Boqi. -->
 
-- **Deng Yao**
+- **Deng Yao**  ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"} Huazhong University of Science and Technology
 
-Deng Yao has received the B.S. degree from ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*, in 2023. He is currently pursuing a M.S. degree at the School of Artificial Intelligence and Automation, ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*. His research interests include incremental learning.
+<!-- Deng Yao has received the B.S. degree from ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*, in 2023. He is currently pursuing a M.S. degree at the School of Artificial Intelligence and Automation, ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*. His research interests include incremental learning. -->
 
-- **Chen Zhipeng**
+- **Chen Zhipeng**  ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"} Huazhong University of Science and Technology
 
-Chen Zhipeng received the B.S. degree from ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*, in 2025. He is currently pursuing a M.S. degree at the School of Artificial Intelligence and Automation, ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*.
+<!-- Chen Zhipeng received the B.S. degree from ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*, in 2025. He is currently pursuing a M.S. degree at the School of Artificial Intelligence and Automation, ![HUST](icons/hust.png){width="18" style="vertical-align:middle;"}  **Huazhong University of Science and Technology**, *Wuhan, China*. -->
 
 ---
